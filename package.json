@@ -1,0 +1,22 @@
+{
+  "name": "test-trade-label",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.conf.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "proxy": "ngrok http 8000",
+    "prox": "ngrok config add-authtoken 2YoY30LK2lq80qpoQNA0P5rm1RB_bag57DwfzZmVkoup34Vm "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
